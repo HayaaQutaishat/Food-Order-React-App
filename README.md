@@ -12,3 +12,7 @@ The main page shows all the different parts of the project. Here we can see all 
 
 <img width="1314" alt="Screen Shot 2022-11-08 at 5 08 09 PM" src="https://user-images.githubusercontent.com/95029840/200616969-d574d437-b352-476f-bd46-d17869789b69.png">
 
+
+When the user add a meal to the cart, the total amount of items in the cart will be updated to show the number of items in the cart.
+
+<img width="1363" alt="Screen Shot 2022-11-08 at 5 20 05 PM" src="https://user-images.githubusercontent.com/95029840/200619285-10e1cf85-970c-4332-8a0a-abc5810d4cda.png">
