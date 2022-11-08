@@ -8,5 +8,7 @@ A food order application that will allow users to check the available list of me
 
 ### The Main Page:
 
+The main page shows all the different parts of the project.
+
 <img width="1314" alt="Screen Shot 2022-11-08 at 5 08 09 PM" src="https://user-images.githubusercontent.com/95029840/200616969-d574d437-b352-476f-bd46-d17869789b69.png">
 
