@@ -1,6 +1,6 @@
 # Food-Order-React-App
 
-Simple food order application built with React.
+Simple food order application built with React, Javascript, HTML and CSS.
 
 ### Project purpose :
 
