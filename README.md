@@ -22,3 +22,6 @@ Users can view thier shopping cart by clicking on the cart button that appears i
 
 
 <img width="1327" alt="Screen Shot 2022-11-08 at 5 36 34 PM" src="https://user-images.githubusercontent.com/95029840/200623053-7405474b-5239-48d0-b1ee-820614352837.png">
+
+
+The overall cart data is managed through React Context because I needed it in different places off the application. On the meal items, I need to update the cart and the cart component, On the cart also, the cart items can also be added or removed.
