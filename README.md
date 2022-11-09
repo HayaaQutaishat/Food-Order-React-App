@@ -18,7 +18,8 @@ When the user add a meal to the cart, the total amount of items in the cart will
 <img width="1363" alt="Screen Shot 2022-11-08 at 5 20 05 PM" src="https://user-images.githubusercontent.com/95029840/200619285-10e1cf85-970c-4332-8a0a-abc5810d4cda.png">
 
 
-Users can view thier shopping cart by clicking on the cart button that appears in the header. The shopping cart is rendered in a Modal. The modal has a backdrop which blocks interaction with the rest of the page. Here I used React Portals to render the modal.
+Users can view thier shopping cart by clicking on the cart button that appears in the header. The shopping cart is rendered in a Modal. The modal has a backdrop which blocks interaction with the rest of the page. Here I used React Portals to render the modal. When a new item is added to the shopping cart I checked that if this item is already a part of the cart or not. If the item is in the cart already I only update the amount and the price for that item, if not I added it as a new item in that array.
+
 
 
 <img width="1327" alt="Screen Shot 2022-11-08 at 5 36 34 PM" src="https://user-images.githubusercontent.com/95029840/200623053-7405474b-5239-48d0-b1ee-820614352837.png">
