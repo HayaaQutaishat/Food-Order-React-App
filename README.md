@@ -26,5 +26,5 @@ Users can view thier shopping cart by clicking on the cart button that appears i
 
 The overall cart data is managed through React Context because I needed it in different places off the application. For example on the meal items, I needed to update the cart and the cart component, on the cart also, the cart items can also be added or removed.
 The overall cart data is managed through React Context because I needed it in different places off the application. For example on the meal items, I needed to update the cart and the cart component, on the cart also, the cart items can also be added or removed.
-This application uses a number of React Hooks for example: useState(), useEffect(), useReducer() and useContext(). 
+This application uses a number of React Hooks for example: useState(), useRef(), useEffect(), useReducer() and useContext(). 
 
