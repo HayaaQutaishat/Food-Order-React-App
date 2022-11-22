@@ -10,7 +10,7 @@ const AvailableMeals = (props) => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        "https://react-http-489ae-default-rtdb.europe-west1.firebasedatabase.app/meals.json"
+        "https://react-http-489ae-default-rtdb.europe-west1.firebasedatabase.app/meals.josn"
       );
       const data = await response.json();
       // console.log(data);
@@ -25,16 +25,16 @@ const AvailableMeals = (props) => {
         });
       }
       setMeals(loadedMeals);
+      setIsLoading(false);
     };
 
     fetchMeals();
-    setIsLoading(false);
   }, []);
 
   if (isLoading) {
     console.log("LOADING");
     return (
-      <section className={classes.MealsLoadig}>
+      <section className={classes.MealsLoading}>
         <p>Loading...</p>
       </section>
     );
