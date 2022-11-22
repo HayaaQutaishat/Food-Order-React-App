@@ -8,6 +8,19 @@ import Checkout from "./Checkout";
 const Cart = (props) => {
   const cartCtx = useContext(CartContext);
 
+  const SendDataToBackendHandler = (userData) => {
+    fetch(
+      "https://react-http-489ae-default-rtdb.europe-west1.firebasedatabase.app/order.json",
+      {
+        method: "POST",
+        body: JSON.stringify({
+          user: userData,
+          orderedItems: cartCtx.items,
+        }),
+      }
+    );
+  };
+
   const [showCheckoutForm, setShowCheckoutForm] = useState(false);
   const showCheckoutHandler = () => {
     setShowCheckoutForm(true);
@@ -45,7 +58,12 @@ const Cart = (props) => {
         <span>Total Amount</span>
         <span>${totalAmount}</span>
       </div>
-      {showCheckoutForm && <Checkout onHideCart={props.onHideCart} />}
+      {showCheckoutForm && (
+        <Checkout
+          onHideCart={props.onHideCart}
+          onSubmit={SendDataToBackendHandler}
+        />
+      )}
       <div className={classes.actions}>
         {!showCheckoutForm && (
           <button className={classes["button--alt"]} onClick={props.onHideCart}>

@@ -48,6 +48,14 @@ const Checkout = (props) => {
       return;
     }
     console.log(enteredName);
+
+    props.onSubmit({
+      name: enteredName,
+      street: enteredStreet,
+      city: enteredCity,
+      postal: enteredPostal,
+    });
+
     resetName();
     resetCity();
     resetPostal();
