@@ -11,7 +11,7 @@ const AvailableMeals = (props) => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        "https://react-http-489ae-default-rtdb.europe-west1.firebasedatabase.app/meals.jso"
+        "https://react-http-489ae-default-rtdb.europe-west1.firebasedatabase.app/meals.json"
       );
       if (!response.ok) {
         throw new Error("Something went wrong!");
@@ -29,7 +29,6 @@ const AvailableMeals = (props) => {
       setMeals(loadedMeals);
       setIsLoading(false);
     };
-
     fetchMeals().catch((error) => {
       setIsLoading(false);
       setError(error.message);
