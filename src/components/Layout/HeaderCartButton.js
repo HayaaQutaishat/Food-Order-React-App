@@ -12,20 +12,17 @@ const HeaderCartButton = (props) => {
   }, 0);
 
   const { items } = cartCtx;
-  const btnClasses = `${classes.button} ${isHighlighted ? classes.bump : ""}`;
 
+  const btnClasses = `${classes.button} ${isHighlighted ? classes.bump : ""}`;
   useEffect(() => {
-    if (items.length === 0) {
+    if (cartCtx.items.length === 0) {
       return;
     }
     setIsHighlighted(true);
-
-    // remove the class
     const timer = setTimeout(() => {
       setIsHighlighted(false);
     }, 300);
 
-    // cleanup function
     return () => {
       clearTimeout(timer);
     };
