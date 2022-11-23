@@ -54,4 +54,8 @@ If error occured while fetching the data from the server (if users are not getti
 When users add items to their cart and clicks the "Order" button, the modal will expand and a checkout form will be shown where users should enter their name, address, postal code and city. Thereafter I got the values the user entered and validate them before sending the order to the backend.
 
 
+<img width="1440" alt="Screen Shot 2022-11-23 at 5 24 48 PM" src="https://user-images.githubusercontent.com/95029840/203597763-5fa8ef6f-0de5-4232-8534-0ef915170819.png">
+
+A validation logic is added to the checkout form to make sure that all the entered values are not empty and that the postal cost is exactly five digits long.
+
 
