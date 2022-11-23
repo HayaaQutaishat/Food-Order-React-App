@@ -58,7 +58,8 @@ When users add items to their cart and clicks the "Order" button, the modal will
 
 A user-side validation logic is added to the checkout form to make sure that all the entered values are not empty and that the postal cost is exactly five digits long. A custom react hook is created in order to not repeat the same logic for validating the four different input fields.
 
+<img width="1440" alt="Screen Shot 2022-11-23 at 5 39 11 PM" src="https://user-images.githubusercontent.com/95029840/203600849-7bddd476-ac4f-47c6-b662-89bcefdafb93.png">
 
-A POST request is sent to the server once the form is submitted with no errors with the user data (name, street, city and postal code)as well as the cart data (the ordered items). 
+A POST request is sent to the server using the fetch function once the form is submitted with no errors with the user data (name, street, city and postal code)as well as the cart data (the ordered items). 
 
 
