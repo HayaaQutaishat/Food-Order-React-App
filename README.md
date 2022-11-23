@@ -43,6 +43,11 @@ Loading State is showing to the user while waiting the data to arrive because fe
 
 
 
+<img width="1440" alt="Screen Shot 2022-11-23 at 4 58 06 PM" src="https://user-images.githubusercontent.com/95029840/203592010-29b55339-6a79-4c85-8eb0-aa45543bc3bd.png">
+
+
+If error occured while fetching the data from the server (if users are not getting a successful response) an error message will be shown instead of loading.
+
 
 
 
