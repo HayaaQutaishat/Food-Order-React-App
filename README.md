@@ -32,8 +32,8 @@ This application uses a number of React Hooks for example: useState(), useRef(),
 
 <img width="1440" alt="Screen Shot 2022-11-23 at 10 23 13 AM" src="https://user-images.githubusercontent.com/95029840/203578236-48a6a5d2-a830-4fd5-892f-7b12d1306198.png">
 
-This application uses Firebase tool, which help us to connect our frontend application with a backend API which will do the talk to the database for example fetch and send data using the realtime database. I moved the hard-coded data(dummy_meals array) into a backend API which given by firebase.
-I added a new node manually and I called it meals with some nested data.
+This application uses Firebase tool, which help us to connect our frontend application with a backend API which will do the talk to the database for example fetch and send data using the realtime database. I moved my hard-coded meals data(dummy_meals array) into a backend API which given by firebase.
+I added a new node manually and I called it meals with some nested data, then i gave every meal an id, a name, a price and a description field.
 
 
 
