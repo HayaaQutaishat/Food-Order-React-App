@@ -56,6 +56,6 @@ When users add items to their cart and clicks the "Order" button, the modal will
 
 <img width="1440" alt="Screen Shot 2022-11-23 at 5 24 48 PM" src="https://user-images.githubusercontent.com/95029840/203597763-5fa8ef6f-0de5-4232-8534-0ef915170819.png">
 
-A validation logic is added to the checkout form to make sure that all the entered values are not empty and that the postal cost is exactly five digits long.
+A user-side validation logic is added to the checkout form to make sure that all the entered values are not empty and that the postal cost is exactly five digits long. A custom react hook is created in order to not repeat the same logic for validating the four different input fields.
 
 
