@@ -37,6 +37,11 @@ I added a new node manually and I called it meals with some nested data, then i 
 Then, I used the built-in fetch API in order to fetch data from Firebase by sending GET HTTP request once the component is loaded so that's why I used (useEffect React Hook). Then I rednered the MealItems that I got from Firebase.
 
 
+<img width="1401" alt="Screen Shot 2022-11-23 at 4 27 37 PM" src="https://user-images.githubusercontent.com/95029840/203585056-8e989d5b-e8f6-4710-a55a-9eddad9c440d.png">
+
+Loading State is showing to the user while waiting the data to arrive because fetch return a promise. So that the list of meals is loaded once we really got a list of meals from firebas otherwise a loading paragraph will be rendered. 
+
+
 
 
 
