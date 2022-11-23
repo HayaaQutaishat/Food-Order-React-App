@@ -51,5 +51,7 @@ If error occured while fetching the data from the server (if users are not getti
 <img width="1440" alt="Screen Shot 2022-11-23 at 5 12 41 PM" src="https://user-images.githubusercontent.com/95029840/203595094-a2ad4ad8-7e44-4074-ac44-7d8c9f0340a5.png">
 
 
-When users add items to their cart and clicks the "Order" button, the modal will expand and a checkout form will be shown where the users should enter the their name, address, postal code and city. Thereafter I can confirm that input to send the order to the backend.
+When users add items to their cart and clicks the "Order" button, the modal will expand and a checkout form will be shown where users should enter their name, address, postal code and city. Thereafter I got the values the user entered and validate them before sending the order to the backend.
+
+
 
