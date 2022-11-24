@@ -64,4 +64,8 @@ A POST request is sent to the server using the fetch function once the form is s
 
 <img width="1400" alt="Screen Shot 2022-11-24 at 2 46 13 PM" src="https://user-images.githubusercontent.com/95029840/203799574-3084a341-47bd-4383-8565-99b8120daced.png">
 
+
+<img width="1306" alt="Screen Shot 2022-11-24 at 2 52 53 PM" src="https://user-images.githubusercontent.com/95029840/203800967-c934f31b-c01e-404c-8f08-a71c05bfc5e8.png">
+
+
 I added a better user feedback by handling two other states. One for letting the use know that we are submiting the order. The other for letting the user knows that the order is successfully sent.
