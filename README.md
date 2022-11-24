@@ -62,4 +62,5 @@ A user-side validation logic is added to the checkout form to make sure that all
 
 A POST request is sent to the server using the fetch function once the form is submitted with no errors with the user data (name, street, city and postal code)as well as the cart data (the ordered items). So a new node with a new auto generated ID will be created in the firebase console which means that the data is send to the server.  
 
+<img width="1400" alt="Screen Shot 2022-11-24 at 2 46 13 PM" src="https://user-images.githubusercontent.com/95029840/203799574-3084a341-47bd-4383-8565-99b8120daced.png">
 
