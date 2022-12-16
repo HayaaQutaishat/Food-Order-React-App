@@ -1,5 +1,7 @@
 # Food-Order-React-App
 
+Welcome to the Food Order React App!
+
 Simple food order application built with React, Javascript, HTML and CSS.
 
 ### Project purpose :
@@ -69,3 +71,15 @@ A POST request is sent to the server using the fetch function once the form is s
 
 
 For better user feedback, two other states is being handled. One for letting the use know that we are submiting the order. The other for letting the user knows that the order is successfully sent.
+
+
+
+## Setup :
+
+To get started, clone or download the repository and navigate to the root directory in your terminal. Then, run the following commands:
+
+- Install all dependencies: run npm install
+- Start the development server: run npm start
+
+
+This will install all necessary dependencies and start the development server. The app will be available at http://localhost:3000 in your browser.
