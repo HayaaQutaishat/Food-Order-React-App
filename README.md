@@ -1,4 +1,4 @@
-
+# Food Order React Application
 Users can check the available meals in the website, add/remove them from the cart, change their amount. Users can place their order by filling a checkout form which will be sent to the backend. Improved the user experience by adding a loading indicators. For the backend API I used Firebase. 
 
 ### Project purpose :
