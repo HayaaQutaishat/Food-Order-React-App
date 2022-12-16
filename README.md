@@ -73,8 +73,15 @@ A POST request is sent to the server using the fetch function once the form is s
 For better user feedback, two other states is being handled. One for letting the use know that we are submiting the order. The other for letting the user knows that the order is successfully sent.
 
 
+## Prerequisites :
 
-## Setup :
+Before you can run this app, you will need to have the following software installed on your machine:
+
+- Node.js
+- npm (which comes with Node)
+
+
+## Setting up the app :
 
 To get started, clone or download the repository and navigate to the root directory in your terminal. Then, run the following commands:
 
